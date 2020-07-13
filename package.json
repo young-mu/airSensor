@@ -1,0 +1,15 @@
+{
+    "name": "air",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "snl-airc-05": "^0.1.2",
+            "tencent-iot-device-mqtt": "^0.0.2"
+        },
+        "version": 1,
+        "devDependencies": {}
+    }
+}

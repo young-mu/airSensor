@@ -1,0 +1,33 @@
+{
+  "name": "tencent-iot-device-mqtt",
+  "version": "0.0.2",
+  "description": "腾讯云IoT物联网平台客户端",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xihu-fm/aliyun-iot-client-sdk.git"
+  },
+  "keywords": [
+    "tencent",
+    "IoT",
+    "tencent-iot-mqtt",
+    "iot-hub"
+  ],
+  "scripts": {
+    "install-rap-dependencies": "rap install"
+  },
+  "author": "wongxming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xihu-fm/aliyun-iot-client-sdk/issues"
+  },
+  "engines": {
+    "ruff": ">=1.2.0 <2.0.0"
+  },
+  "ruff": {
+    "dependencies": {
+      "mqtt": "^0.1.3"
+    }
+  },
+  "readmeFilename": "README.md"
+}
